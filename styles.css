@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.about-me-section {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.profile-picture {
+    flex: 0 0 200px;
+    margin-right: 2rem;
+}
+
+.profile-picture img {
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-me-content {
+    flex: 1;
+}
+
+.about-me-content h2 {
+    margin-bottom: 1rem;
+}
+
+.timeline {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.timeline h2 {
+    margin-bottom: 1.5rem;
+}
+
+.event {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.event-date {
+    flex: 0 0 120px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 0.8rem;
+}
+
+.event-content {
+    flex: 1;
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-left: none;
+}
+
+.event-content h3 {
+    margin-top: 0;
+}
+
+.event-content p {
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+footer h2 {
+    margin-bottom: 1rem;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer li {
+    margin-bottom: 0.5rem;
+    margin-right: 2rem;
+}
+
+footer li:last-child {
+    margin-right: 0;
+}
+
+footer li strong {
+    display: inline-block;
+    width: 80px;
+}
+
+li > a {
+    color: white;
+}
