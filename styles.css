@@ -45,6 +45,10 @@ header h1 {
     margin-bottom: 1rem;
 }
 
+.about-me-content p {
+    font-family: Times;
+}
+
 .timeline {
     max-width: 800px;
     margin: 0 auto;
