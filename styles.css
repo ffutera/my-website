@@ -176,5 +176,8 @@ li > a {
 
 .category-card.selected {
     background-color: #27ae60;
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
+
 
