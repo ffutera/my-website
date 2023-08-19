@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filip Futera</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
 </head>
 <body>
     <header>
@@ -17,45 +18,173 @@
         <div class="about-me-content">
             <h2>About Me</h2>
             <p>
-                Hi, I'm [Your Name]. I am passionate about [Your Interests/Hobbies].
-                This timeline showcases some of the significant events in my life.
+                Hi, I'm Filip. I am currently entering my 4th year of my bachelor degree in computer science at the Univerity of Edinburgh. Beyond computing, I am passionate about sports and fitness including volleyball and football. I also enjoy trying new things and continuously learning new skills. This timeline showcases some of the significant events in my academic and professional career so far.
             </p>
         </div>
     </div>
-    <div class="timeline">
-        <h2>My Journey</h2>
-        <!-- Add your events here -->
-        <div class="event">
-            <div class="event-date">Year 1</div>
-            <div class="event-content">
-                <h3>Event Title</h3>
-                <p>Event description goes here.</p>
-            </div>
-        </div>
-        <div class="event">
-            <div class="event-date">Year 2</div>
-            <div class="event-content">
-                <h3>Another Event Title</h3>
-                <p>Another event description goes here.</p>
-            </div>
-        </div>
-        <!-- Add more events as needed -->
+
+<div class="timeline">
+    <h2>My Journey</h2>
+    <div class="category-cards">
+        <div class="category-card academics">Education</div>
+        <div class="category-card career">Professional</div>
+        <div class="category-card extracurricular">Extracurricular</div>
     </div>
-    <footer class="contact-info">
-        <ul>
-            <li>
-                <a href="mailto:ffutera@gmail.com">ffutera@gmail.com</a>
-            </li>
-            <li>
-                +44 (0)7340 698985
-            </li>
-            <li>
-                <a href="http://linkedin.com/in/filip-futera-4b2a90208/">LinkedIn</a>
-            </li>
-            <li>
-                Edinburgh, United Kingdom
-            </li>
-        </ul>
-    </footer>
+    <div class="event-cards">
+        <div class="academics-event event-card">
+            <div class="event">
+                <div class="event-date">September 2022<br>to<br>June 2023</div>
+                <div class="event-content">
+                    <h3>California Institute of Technology</h3>
+                    <p>Selected for a year-long exchange program at Caltech to pursue my Computer Science Bsc program. Attained an overall 4.2 GPA and partook in football and volleyball leagues.</p>
+                </div>
+            </div>
+            <div class="event">
+                <div class="event-date">September 2020<br>to<br>May 2024</div>
+                <div class="event-content">
+                    <h3>University of Edinburgh</h3>
+                    <p>Bachelor degree studies in computer science with electives in economics. On track to obtain first class honors, currently maintaining a 90% average.</p>
+                </div>
+            </div>
+            <div class="event">
+                <div class="event-date">September 2018<br>to<br>May 2020</div>
+                <div class="event-content">
+                    <h3>British School Warsaw - International Baccalaureatte</h3>
+                    <p>Completed IB qualifications with a score of 45/45 and COBIS attainment award.</p>
+                </div>
+            </div>
+            <div class="event">
+                <div class="event-date">September 2016<br>to<br>May 2018</div>
+                <div class="event-content">
+                    <h3>British School Warsaw - International GCSEs</h3>
+                    <p>Completed IGCSE qualifications with 10 A* and Top in the World in Mathematics award.</p>
+                </div>
+            </div>
+        </div>
+        <div class="career-event event-card">
+            <div class="event">
+                <div class="event-date">June 2023<br>to<br>September 2023</div>
+                <div class="event-content">
+                    <h3>Man Group - Trading Execution Technology Intern</h3>
+                    <p>
+                     Improved the reporting mechanism for trading analytics by developing a specialized framework as part the central
+                     trading analytics team. This included enhancing vizualisations, data quality and presentation 5+ reports.
+                     Furthermore, learned and contributed to the financial processes and business operations of a successful investment manager.
+                    </p>
+                </div>
+            </div>
+            <div class="event">
+                <div class="event-date">April 2023<br>to<br>June 2023</div>
+                <div class="event-content">
+                    <h3>California Institute of Technology - Machine Learning Research Project</h3>
+                    <p>
+                     Developed AI/ML models specialized towards medical diagnosis for the classification of 9 pathologies in frontal and lateral chest X-Rays using CheXpert dataset. Tasks included data preprocessing, feature engineering (e.g. image segmentation to compute the cardiothoractic ratio) and training and tuning neural networks and vision transformers to maximise performance.
+                    </p>
+                </div>
+            </div>
+            <div class="event">
+                <div class="event-date">January 2023<br>to<br>March 2023</div>
+                <div class="event-content">
+                    <h3>California Institue of Technology - Spreadsheet Engine Project</h3>
+                    <p>
+                        Replicated an Excel spreadsheet engine as part of a group project, while utilizing Agile methodologies. Tasks included designing the internal spreadsheet structure, parsing formulas, efficiently tracking cell dependencies, creating unit, integration, performance and regression tests. Subsequently, created a model solution performing on average 2.23x faster than the reference implementation whilst passing all acceptance tests.
+                    </p>
+                </div>
+            </div>
+            <div class="event">
+                <div class="event-date">June 2022<br>to<br>September 2022</div>
+                <div class="event-content">
+                    <h3>Goldman Sachs - Data Engineering Intern</h3>
+                    <p>
+                        Enhanced error handling in <a href="https://github.com/finos/legend-engine"> FINOS Legend project </a> by automatically interpreting exception causes and creating an exception categorization algorithm, leading to optimized alerting rules. This reduced critical alerts by ∼25%. Also consolidated error metrics into a single Prometheus counter and designed 4 Grafana graphs for streamlined error visualization, while learning about the data pipelines and their significance around the business.
+                    </p>
+                </div>
+            </div>
+            <div class="event">
+                <div class="event-date">September 2021<br>to<br>July 2022</div>
+                <div class="event-content">
+                    <h3>Edinburgh University Formula Student - Perception Software Engineer</h3>
+                    <p>
+                        Developed algorithms to improve racetrack detection for an autonomous racecar using LiDAR and stereo cameras in
+                        the ROS using Python and C++. Tasks included improving point cloud accumulation to better estimate cone positions. Efforts contributed to winning overall championship in FS-AI at the Formula Student 2022 competition.
+                    </p>
+                </div>
+            </div>
+            <div class="event">
+                <div class="event-date">June 2021<br>to<br>July 2021</div>
+                <div class="event-content">
+                    <h3>B/S/H - Computer Vision Research Intern</h3>
+                    <p>
+                        Studied explainability research papers and experimented with different techniques to interpret existing computer
+                        vision models for smart household appliances to determine their reliability and validity. Created AI models and
+                        simulated adversarial attacks to ensure product quality, while learning the importance of product quality control.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="extracurricular-event event-card">
+            <div class="event">
+                <div class="event-date">September 2018<br>to<br>Present</div>
+                <div class="event-content">
+                    <h3>Volleyball Athlete</h3>
+                    <p>
+                        Active volleyball player, regularly dedicating time to multiple trainings and matches a week. This includes being part of the Edinburgh University volleyball team for multiple years and subsequently receiving the MVP 2022 award, and also being an active member of the Caltech volleyball club and league.
+                    </p>
+                </div>
+            </div>
+            <div class="event">
+                <div class="event-date">September 2022<br>to<br>June 2023</div>
+                <div class="event-content">
+                    <h3>Football League</h3>
+                    <p>
+                        Active member of the Caltech football league for students and professors, dedicating time for weekly trainings and games every weekend. Finished the season as runner ups to the title.
+                    </p>
+                </div>
+            </div>
+            <div class="event">
+                <div class="event-date">October 2020<br>to<br>October 2020</div>
+                <div class="event-content">
+                    <h3>IdeaHack Hackathon</h3>
+                    <p>
+                        Partook in the ideahack hackathon to develop an application to recommend jobs based on skill bases in Python. Tasks included seting up the backend for the application and developing the recommendation algorithm.
+
+                    </p>
+                </div>
+            </div>
+            <div class="event">
+                <div class="event-date">May 2020<br>to<br>June 2020</div>
+                <div class="event-content">
+                    <h3>Harvard CS50 Web Development Course</h3>
+                    <p>
+                        <a href="https://certificates.cs50.io/96661fec-523a-4115-922f-8e1997ebef0d.pdf?size=letter">Completed the harvard CS50 web development course</a> that introduces full stack development in web applications with Flask and Django frameworks, and requires projects like creating a real-time messaging app and a menu ordering app.
+                    </p>
+                </div>
+            </div>
+            <div class="event">
+                <div class="event-date">January 2019<br>to<br>May 2019</div>
+                <div class="event-content">
+                    <h3>Teaching Experience</h3>
+                    <p>Organised and taught weekly HTML and CSS classes for primary school students. Tasks included preparing materials for each class, devising a teaching schedule and grading student's projects</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="contact-info">
+    <ul>
+        <li>
+            <a href="mailto:ffutera@gmail.com">ffutera@gmail.com</a>
+        </li>
+        <li>
+            +44 (0)7340 698985
+        </li>
+        <li>
+            <a href="http://linkedin.com/in/filip-futera-4b2a90208/">LinkedIn</a>
+        </li>
+        <li>
+            Edinburgh, United Kingdom
+        </li>
+    </ul>
+</footer>
 </body>
 </html>

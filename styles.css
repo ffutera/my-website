@@ -61,9 +61,12 @@ header h1 {
 .event-date {
     flex: 0 0 120px;
     text-align: center;
-    background-color: #333;
+    background-color: darkblue;
     color: #fff;
     padding: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .event-content {
@@ -80,6 +83,10 @@ header h1 {
 
 .event-content p {
     margin-bottom: 0;
+}
+
+.event-content, .event-date {
+    font-family: Times;
 }
 
 footer {
@@ -119,3 +126,46 @@ footer li strong {
 li > a {
     color: white;
 }
+
+.event-cards {
+    display: none;
+}
+
+.category-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.category-card {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.category-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.category-card {
+    flex: 1;
+    padding: 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.category-card:hover {
+    background-color: #2980b9;
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+
