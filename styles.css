@@ -67,8 +67,11 @@ header h1 {
 .event-date {
     flex: 0 0 120px;
     text-align: center;
-    background-color: darkblue;
-    color: #fff;
+    background-color: #EEA47F;
+    color: #333;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 13pt;
     padding: 0.8rem;
     display: flex;
     justify-content: center;
